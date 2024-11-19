@@ -38,3 +38,7 @@ You may get an error that the bin already exists when running cli-setup.sh, the 
 
 Log_Directory is where you want to store the tarball. For ex. $HOME
 
+## Improvements 
+
+[ ] CLI Setup: Have it check for bin directory first so it doesn't throw error 
+[ ] Proper error if positional argument is not set 
