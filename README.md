@@ -29,3 +29,12 @@ The tool should run from the command line, accept the log directory as an argume
 You can learn more about the tar command here.
 
 If you are looking to build a more advanced version of this project, you can consider adding functionality to the tool like emailing the user updates on the archive, or sending the archive to a remote server or cloud storage.
+
+## Notes 
+
+Put both cliSetup and log-archive in your working dir. Run 'bash cliSetup.sh' , then you will be able to run 'log-archive <log_directory> '.
+
+You may get an error that the bin already exists when running cli-setup.sh, the rest will still run. 
+
+Log_Directory is where you want to store the tarball. For ex. $HOME
+
